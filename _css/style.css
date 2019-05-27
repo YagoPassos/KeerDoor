@@ -1,0 +1,361 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none !important;
+}
+/* - - - Header - - - */
+.navbar-dark {
+    border-bottom: 3px solid rgba(255, 206, 101, 0.507);
+}
+
+.nav-item{
+
+    height: 40px;
+}
+
+.nav-item :hover{
+    border-bottom: 2.5px solid rgba(255, 140, 0, 0.863);
+}
+
+
+.navbar-nav{
+    margin: 0;
+    min-height: 50px;
+    max-height: 180px;
+
+}
+/* - - - carousel - - - */
+
+.carousel img{
+   min-height: 529px;
+    
+}
+.img-fluid{
+    min-width: 100% ;
+    background-size: cover;
+    height: 380px;
+}
+
+
+
+.carousel h1 {
+	font-size: 55px;
+}
+.carousel p{
+	width: 850px;
+	font-size: 35px;
+	text-align: center;
+}
+
+/* - - - card group - - - */
+.card {
+    border: none;
+}
+
+.card-group{
+
+    margin: 4rem 0 4rem 0;
+
+}
+
+.card .fa-user-plus{
+	margin: auto;
+	width: 120px;
+	
+}
+
+/* - - - Footer - - - */
+
+footer .fas, img {
+    margin-right: 5px;
+}
+
+.orng{
+    color: rgb(255, 174, 0)
+}
+
+.foot h6 {
+    width: 115px; padding-bottom: 5px;
+    color: rgba(255, 153, 28, 0.897);
+    border-bottom: 1px solid rgba(247, 138, 4, 0.897);
+}
+
+.list-group-item {
+    border: none;
+    background-color:rgb(31, 31, 31);
+    margin-left:-7px;
+    padding-left: 3px;
+    color: rgb(202, 202, 202);
+    
+}
+
+
+.list-group-item:hover, .list-group-item-action:focus {
+    color: rgb(202, 202, 202);
+    background-color: rgb(39, 39, 39);
+}
+
+footer{
+    border-top: 1px solid rgba(247, 138, 4, 0.897);
+}
+
+.pb-1 h6 {
+    color: rgb(172, 172, 172);
+    font-size: 0.9rem;
+}
+
+/* - - - Formulário de Contato  - - - */
+
+.contact-section{
+	font-family: "Century Gothic";
+	background-color: rgb(214, 214, 214);
+	padding: 50px 0;
+}
+.contact-section h1{
+	text-align: center;
+	color: rgb(255, 145, 0);
+	font-size: 28px;
+	padding: 1px;
+}
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.input-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0; 
+	border: 0;
+	background: #111;
+	padding: 15px 35px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	font-family: "Century Gothic";
+	opacity: 0.9;
+}
+.input-text:focus{
+	box-shadow: 0 0 10px 4px #FFEFD5; 
+}
+textarea.input-text{
+	resize: none;
+	height: 100px;
+	font-family: "Century Gothic";
+}
+.input-btn{
+	float: right;
+	border: 0;
+	background: rgb(247, 176, 62);
+	color: #000000;
+	padding: 12px 45px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-family: "Century Gothic";
+}
+.input-btn:hover{
+	background: rgb(253, 143, 0);
+}
+
+/* - - - Login  - - - */
+
+.col{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.login{
+	margin: 0;
+	padding: 0;
+
+	font-family: Arial, Helvetica, sans-serif;
+	background-image:  url(../_img/computerLogin.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover ; 
+	
+
+	
+	
+}
+.logon{
+	
+	position: fixed;
+	color: white;
+	padding: 20px 35px;
+	margin: 20px;
+	box-shadow: 0 0 35px 1px black;
+	border-radius: 5%;
+	background-color: rgba(49, 49, 49, 0.521);
+	
+}
+.logon h1{
+	float: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	border-bottom: 3px solid rgb(247, 168, 0);
+	margin: 15px 0 25px ;
+	padding: 13px 50px;
+}
+
+.log{
+	margin-left: 50px !important;
+	margin-right: 50px !important;
+	text-align: center;
+	
+}
+
+.textbox{
+	width: auto;
+	overflow: hidden;
+	font-size: 18px;
+	padding: 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid rgb(247, 168, 0);
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+.btn, .btn2{
+	width: 180px;
+	background: none;
+	border: 0.5px solid rgb(247, 168, 0);
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 12px 12px;
+	outline: none ;
+}
+.btn:hover{
+	background: rgb(255, 168, 11);
+}
+
+.btn:focus{
+	background: rgb(255, 168, 11) !important;
+}
+
+.btn2:hover{
+	text-decoration: none;
+	background: rgb(255, 168, 11) !important ;
+}
+
+.btn2:focus{
+	background: rgb(255, 168, 11);
+}
+
+.pFundo {
+	background-color: gray !important;
+}
+
+.login span{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: white;
+	padding-left: 15px;
+	letter-spacing: 0.5px;
+}
+.linksLogin  a{
+    font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	padding: 0 10%;
+	margin: 0 0 15px 0;
+	
+}
+.linksLogin{
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+}
+
+::placeholder {
+    color: rgb(221, 221, 221);
+}
+
+/* - - - Cadastro  - - - */
+
+form {
+	width: auto;
+	height: auto;
+}
+
+.input {
+	margin-top: 7px;
+}
+.rb text {
+	background-color: rgb(255, 145, 0)
+}
+.rb .btn:focus {
+	background-color: rgb(255, 145, 0)
+}
+.cad label {
+	color: white;
+}
+.cad .logon {
+	text-align: left;
+	
+	width: 15%;
+	height: 80%;
+}	
+.cad .linha {
+	min-height: 280px;
+	max-width: 450px;
+	
+}
+
+.cad .col-sm-12{
+	min-width: 430px;;
+}
+
+.cad .btn {
+	margin-top: 10px;
+	width: 100px;
+	height: 50px;
+}
+#inputName, #inputSobranome{
+	width: 250px;
+}
+
+
+.btn-group {
+	display: flex !important; 
+}
+
+.btn-group .btn{
+	background-color: rgb(252, 157, 42);
+	margin:0;
+	padding: 0;
+}
+
+.btn-group .btn :focus {
+	background-color: rgb(131, 72, 1);
+}
+
+/*# sourceMappingURL=style.css.map */
